@@ -965,7 +965,7 @@ nav {
   color: #f6f1df;
   float: right;
   margin-right: 10%;
-  background: url(/images/hamburger.png) 0 0 no-repeat;
+  background: url("http://fsanger.github.io/Memento/images/hamburger.png") 0 0 no-repeat;
   background-size: 28px 28px;
   width: 32px;
   height: 32px;
