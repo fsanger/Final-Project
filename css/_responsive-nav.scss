@@ -1,0 +1,96 @@
+/*! responsive-nav.js 1.0.39 by @viljamis */
+nav {
+  width: 100%;
+  float:right;
+  // margin-right: 5%;
+  }
+
+.nav-collapse ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  list-style: none;
+
+}
+
+.nav-collapse li {
+  display: block;
+  width: 100%;
+  font-family: "lato";
+  font-size: 1.2em;
+  font-weight: 300;
+  color: $m-cream;
+  padding-left: 10%;
+  text-transform: uppercase;
+  padding-bottom: 14px;
+  padding-top: 14px;
+  border-bottom: 1px gray solid;
+  letter-spacing: 1.4px;
+
+}
+
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1;
+}
+
+.nav-collapse.opened {
+  max-height: 9999px;
+
+}
+
+.nav-toggle {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  line-height: 1.4;
+}
+
+@media screen and (min-width: 1120px) {
+
+  .nav-collapse {
+    float: left;
+    width: 70%;
+    // padding-left: 5%;
+    margin-top: 10px;
+  }
+  .js .nav-collapse {
+    position: relative;
+  }
+  .js .nav-collapse.closed {
+    max-height: none;
+  }
+
+  .nav-collapse li ul {
+  width: 100%;
+  display: inline-block;
+}
+
+  .nav-toggle {
+    display: none;
+  }
+
+
+.nav-collapse li {
+  // font-family: "lato";
+  font-size: 1em;
+  padding-left: 0;
+  border-bottom: none;
+  // letter-spacing: 1.4px;
+  display: inline;
+  padding-right: 0;
+  margin-left: 3%;
+}
+}
