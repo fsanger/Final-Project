@@ -65,7 +65,7 @@ nav {
   font-size: 1.2em;
   font-weight: 300;
   color: #f6f1df;
-  padding-left: 10%;
+  padding-left: 15%;
   text-transform: uppercase;
   padding-bottom: 14px;
   padding-top: 14px;
@@ -99,7 +99,7 @@ nav {
 @media screen and (min-width: 1120px) {
   .nav-collapse {
     float: left;
-    width: 70%;
+    width: 75%;
     margin-top: 10px; }
 
   .js .nav-collapse {
@@ -121,7 +121,7 @@ nav {
     border-bottom: none;
     display: inline;
     padding-right: 0;
-    margin-left: 3%; } }
+    margin-left: 4%; } }
 /* General Demo Style */
 @font-face {
   font-family: 'codropsicons';
@@ -965,7 +965,7 @@ nav {
   color: #f6f1df;
   float: right;
   margin-right: 10%;
-  background: url("http://fsanger.github.io/Memento/images/hamburger.png") 0 0 no-repeat;
+  background: url(http://fsanger.github.io/Memento/images/hamburger.png) 0 0 no-repeat;
   background-size: 28px 28px;
   width: 32px;
   height: 32px;
@@ -985,7 +985,8 @@ nav {
 .headerphoto {
   width: 100%;
   border-bottom: 3px white solid;
-  border-top: 3px white solid; }
+  border-top: 3px white solid;
+  background-color: #78847e; }
 
 .herophoto {
   background-image: url("../images/boardwalk.jpg");
@@ -996,9 +997,9 @@ nav {
   background-repeat: no-repeat; }
 
 .backgroundhero {
-  background-image: url("../images/boardwalk_color9.jpg");
-  background-size: cover;
-  background-position: center;
+  background-image: url("../images/boardwalk_color9sma2.jpg");
+  background-size: 100% auto;
+  background-position: 0px -30px;
   background-repeat: no-repeat; }
 
 .logo {
@@ -1046,10 +1047,6 @@ p {
   float: left;
   clear: both; }
 
-.centered {
-  margin-top: 50px;
-  margin-bottom: -30px; }
-
 h1 {
   font-family: "lato";
   font-style: italic;
@@ -1058,8 +1055,9 @@ h1 {
   line-height: 1.3;
   color: white;
   padding-left: 10%;
-  padding-bottom: 30px;
-  padding-right: 10%; }
+  padding-right: 10%;
+  padding-top: 40px;
+  padding-bottom: 40px; }
 
 h2 {
   font-family: "calluna";
@@ -1100,6 +1098,10 @@ h4 {
   padding-bottom: 20px;
   padding-right: 10%; }
 
+.descript {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
 header {
   font-family: "lato";
   background: #2c2e2e;
@@ -1130,19 +1132,9 @@ header {
 .landingbackground {
   background-color: #597289; }
 
-.experience-header {
-  padding-top: 40px; }
-
 .creation-header {
-  padding-top: 40px;
-  padding-bottom: 80px;
-  border-bottom: 2px white solid;
+  border-bottom: 3px white solid;
   background-color: #597289; }
-  .creation-header h1 {
-    font-size: 2.3em;
-    color: white;
-    font-weight: 300;
-    margin-top: 0; }
 
 .creation-subheader {
   font-size: 1.9em;
@@ -1156,7 +1148,9 @@ header {
   border-bottom: 2px white solid;
   border-top: 2px white solid;
   margin-left: 10%;
-  margin-right: 10%; }
+  margin-right: 10%;
+  padding-left: 25px;
+  padding-right: 0%; }
 
 .form-question {
   font-family: "lato";
@@ -1203,6 +1197,36 @@ header {
   border-left: 1px white solid;
   border-right: 1px white solid;
   width: 80%; }
+
+.sign-in {
+  width: 220px;
+  font-family: "lato";
+  border-radius: 30px;
+  border: 2px white solid;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  background-color: #597289;
+  font-variant: small-caps;
+  text-align: center;
+  font-size: 1.6em;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  display: block; }
+
+.sign-in-fields {
+  margin-left: 10%;
+  margin-right: 10%; }
+
+.sign-insection {
+  height: 800px;
+  box-sizing: border-box;
+  margin-bottom: 30px; }
+
+.name {
+  margin-top: 10%; }
 
 .threerowbox {
   height: 140px; }
@@ -1272,7 +1296,7 @@ header {
   text-align: center;
   font-size: 1.45em;
   margin-top: 90px;
-  margin-bottom: 40px; }
+  margin-bottom: 60px; }
   .close-button:hover {
     background-color: #45586a;
     color: white; }
@@ -1326,9 +1350,8 @@ em {
 
 .modal {
   font-size: 1.4em;
-  margin-left: 0;
-  margin-right: 0;
-  width: 100%; }
+  margin-left: 10%;
+  margin-right: 10%; }
 
 .sizetext {
   border-left: #67657a solid 10px; }
@@ -1377,7 +1400,8 @@ em {
   margin-bottom: 10px; }
 
 .centered {
-  margin-bottom: -30px; }
+  margin-top: 3%;
+  margin-bottom: -40px; }
 
 .md-modal {
   position: fixed;
@@ -1435,9 +1459,9 @@ em {
   clear: both; }
 
 .psteps {
-  margin-top: 25px;
+  margin-top: 35px;
   color: #2c2e2e;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   line-height: 1.5;
   float: left;
   clear: both;
@@ -1475,6 +1499,15 @@ em {
 
 @media only screen and (min-width: 800px) {
   /* Small desktop*/
+  .backgroundhero {
+    background-image: url("../images/boardwalk_color9.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; }
+
+  .space {
+    margin-top: 50px; }
+
   .chapter-list {
     box-sizing: border-box;
     width: 37.5%;
@@ -1497,6 +1530,15 @@ em {
     overflow: hidden;
     margin-bottom: 30px; }
 
+  .sign-in {
+    width: 300px;
+    font-size: 1.6em; }
+
+  .sign-in-fields {
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%; }
+
   .logo {
     height: 44px;
     padding-left: 0;
@@ -1509,14 +1551,17 @@ em {
     font-size: 1.1em; }
 
   .headerphoto {
-    padding-left: 10%;
-    padding-right: 10%; }
+    padding-left: 24%;
+    padding-right: 24%; }
     .headerphoto .introimage-sizing {
       height: 100px; }
 
   h1 {
-    font-size: 4em;
-    padding-bottom: 60px; }
+    font-size: 4.2em;
+    padding-bottom: 60px;
+    padding-right: 24%;
+    padding-left: 24%;
+    padding-top: 40px; }
 
   h3 {
     font-size: 2.1em;
@@ -1527,7 +1572,9 @@ em {
     padding-left: 14%; }
 
   .h3experience {
-    font-size: 1.9em; }
+    font-size: 1.9em;
+    margin-top: 20px;
+    margin-bottom: 40px; }
 
   h2 {
     font-size: 2.7em;
@@ -1535,23 +1582,12 @@ em {
 
   p {
     font-size: 1.7em;
-    line-height: 1.6;
+    line-height: 1.7;
     padding-right: 25%; }
 
   .newchapterbutton {
     width: 220px;
-    margin-bottom: 50px; }
-
-  .centered {
-    margin-left: 13%;
-    margin-right: 20%;
-    margin-bottom: -30px; } }
-@media only screen and (min-width: 1000px) {
-  .headerphoto {
-    padding-left: 15%;
-    padding-right: 15%;
-    max-height: 100%;
-    max-width: 100%; } }
+    margin-bottom: 50px; } }
 @media only screen and (min-width: 1100px) {
   .steps-container {
     background-color: #f6f1df;

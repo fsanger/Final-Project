@@ -60,44 +60,19 @@ nav {
   // height: 3000px;
 }
 
-// .timeline-left {
-//   position: relative;
-//   float: left;
-//   clear: both;
-//   // height: 3000px;
-//   background-color: $m-charcoal;
-//   // border-right: white 1px solid;
-//   padding-right: 10%;
-//   padding-left: 5%;
-//   max-width: 60px;
-//   border-top: 3px white solid;
-//   max-width: 10%;
-//   box-sizing: border-box;
-//   height: 100%;
-//   overflow: hidden;
-// }
-
-// .line {
-//   margin-left: 15%;
-//   border-left: 1px $m-cream solid;
-//   height: 5000px;
-//   float: left;
-//   clear: both;
-// }
 
 .story-right {
   padding-left: 100px;
   background: url("../images/test-timeline.png") repeat-y;
   float: left;
-  // padding-right: 5%;
   border-top: 3px white solid;
-  // padding-left:5%;
 }
 
 .headerphoto {
   width:100%;
   border-bottom: 3px white solid;
   border-top: 3px white solid;
+  background-color: $m-medmint;
 }
 
 .herophoto {
@@ -110,12 +85,12 @@ nav {
   }
 
   .backgroundhero {
-  background-image: url("../images/boardwalk_color9.jpg");
+  background-image: url("../images/boardwalk_color9sma2.jpg");
   // border-bottom: 3px white solid;
   // border-top: none;
   // width:100%;
-  background-size: cover;
-  background-position: center;
+  background-size: 100% auto;
+  background-position: 0px -30px;
   background-repeat: no-repeat;
   }
 
@@ -183,10 +158,10 @@ p {
   clear: both;
 }
 
-.centered {
-  margin-top: 50px;
-  margin-bottom: -30px;
-}
+// .centered {
+//   margin-top: 50px;
+//   margin-bottom: -30px;
+// }
 
 h1 {
   font-family: "lato";
@@ -197,8 +172,10 @@ h1 {
   // width: 300px;
   color: white;
   padding-left: 10%;
-  padding-bottom: 30px;
+  // padding-bottom: 30px;
   padding-right: 10%;
+  padding-top: 40px;
+  padding-bottom:40px;
 }
 
 h2 {
@@ -265,6 +242,11 @@ h4 {
 // }
 // 
 
+.descript {
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
 
 header {
 
@@ -315,33 +297,21 @@ header {
   margin-right: auto;
 }
 
-// form {
-// // margin-top: 30px;
-// height: 1800px;
-// // margin-left: 5%;
-// // margin-right: 5%;
-// background-color: $m-medblue;
-// }
-
 .landingbackground {
   background-color: $m-darkblue;
 }
 
-.experience-header {
-  padding-top: 40px;
-}
 .creation-header {
-
-padding-top: 40px;
-padding-bottom:80px;
-border-bottom: 2px white solid;
+// padding-top: 40px;
+// padding-bottom:60px;
+border-bottom: 3px white solid;
 background-color: $m-darkblue;
-h1 {
-font-size: 2.3em;
-color: white;
-font-weight: 300;
-margin-top: 0;
-}
+// h1 {
+// font-size: 2.3em;
+// color: white;
+// font-weight: 300;
+// margin-top: 0;
+// }
 }
 
 .creation-subheader {
@@ -359,14 +329,9 @@ background-color: $m-darkblue;
   border-top: 2px white solid;
 margin-left: 10%;
 margin-right: 10%;
+padding-left: 25px;
+padding-right: 0%;
 }
-
-// .input-field {
-// height: 40px;
-// background-color: $m-charcoal;
-// // border-bottom: 3px $m-cream solid;
-
-// }
 
 .form-question {
   font-family: "lato";
@@ -419,6 +384,41 @@ margin-right: 10%;
   width: 80%;
 }
 
+.sign-in {
+  width: 220px;
+  font-family: "lato";
+  border-radius: 30px;
+  border: 2px white solid;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  background-color: $m-darkblue;
+  font-variant: small-caps;
+  text-align: center;
+  font-size: 1.6em;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  display: block;
+  }
+
+.sign-in-fields {
+  margin-left: 10%;
+  margin-right: 10%;
+  }
+
+
+.sign-insection {
+  height: 800px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+.name {
+  margin-top: 10%;
+}
+
 .threerowbox {
   height: 140px;
 }
@@ -439,8 +439,8 @@ margin-right: 10%;
   margin-top: 60px;
   margin-bottom: 60px;
   display: inline-block;
-
  }
+
 
  .md-content button {
   margin-top: 20px;
@@ -511,7 +511,7 @@ padding-top: 5px;
   text-align: center;
   font-size: 1.45em;
   margin-top: 90px;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 
   &:hover {
      background-color: darken($m-darkblue, 10%);
@@ -524,11 +524,7 @@ padding-top: 5px;
   padding-top: 5px;
   padding-bottom: 10px;
   display: block;
-
 }
-
-
-
 
 em {
   font-family: "lato";
@@ -588,9 +584,9 @@ em {
 
 .modal {
   font-size: 1.4em;
-  margin-left: 0;
-  margin-right: 0;
-  width:100%;
+  margin-left: 10%;
+  margin-right: 10%;
+  // width:100%;
 }
 
 .sizetext {
@@ -655,7 +651,8 @@ em {
 }
 
 .centered {
-  margin-bottom: -30px;
+  margin-top: 3%;
+  margin-bottom: -40px;
 }
 
 // .content-containers {
@@ -776,9 +773,9 @@ clear:both;
 }
 
 .psteps {
-margin-top: 25px;
+margin-top: 35px;
 color: $m-charcoal;
-margin-bottom: 30px;
+margin-bottom: 20px;
 line-height: 1.5;
 // background-color: $m-cream;
 float:left;
@@ -835,6 +832,19 @@ clear:both;
 //   width: auto;
 // }
 
+.backgroundhero {
+  background-image: url("../images/boardwalk_color9.jpg");
+  // border-bottom: 3px white solid;
+  // border-top: none;
+  // width:100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  }
+
+.space {
+margin-top: 50px;
+}
 
 .chapter-list { 
   box-sizing: border-box;
@@ -864,8 +874,16 @@ clear:both;
   // border-right: 1px white solid;
 }
 
+.sign-in {
+  width: 300px;
+  font-size: 1.6em;
+}
 
-
+.sign-in-fields {
+  margin-left: 30%;
+  margin-right: 30%;
+  width: 40%;
+}
 
 .logo {
 height: 44px;
@@ -882,8 +900,8 @@ margin-left: 10%;
 
 .headerphoto {
     // overflow: hidden;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 24%;
+    padding-right: 24%;
 
 .introimage-sizing {
   height: 100px;
@@ -891,11 +909,13 @@ margin-left: 10%;
 }
 
 
-
-
 h1 {
-  font-size: 4em;
+  font-size: 4.2em;
   padding-bottom: 60px;
+  padding-right: 24%;
+  padding-left: 24%;
+  padding-top: 40px;
+  // text-align: center;
 }
 
 h3 {
@@ -909,6 +929,8 @@ h3 {
 
 .h3experience {
   font-size: 1.9em;
+  margin-top:20px;
+  margin-bottom:40px;
 }
 
 h2 {
@@ -920,8 +942,11 @@ h2 {
 p {
 font-size: 1.7em;
 // width: 600px;
-line-height: 1.6;
+line-height: 1.7;
 padding-right: 25%;
+// margin-top: 0em;
+// margin-bottom: 4em;
+
  }
 
 .newchapterbutton {
@@ -929,24 +954,24 @@ width: 220px;
 margin-bottom: 50px;
 }  
 
-.centered {
-  margin-left: 13%;
-  margin-right: 20%;
-  margin-bottom: -30px;
-}
+// .centered {
+//   margin-left: 13%;
+//   margin-right: 20%;
+//   margin-bottom: -30px;
+// }
 }
 
 
-@media only screen and (min-width : 1000px) {
+// @media only screen and (min-width : 1000px) {
 
-.headerphoto {
-    // overflow: hidden;
-    padding-left: 15%;
-    padding-right: 15%;
-    max-height: 100%;
-    max-width: 100%;
-}
-}
+// .headerphoto {
+//     // overflow: hidden;
+//     padding-left: 15%;
+//     padding-right: 15%;
+//     max-height: 100%;
+//     max-width: 100%;
+// }
+// }
 
 
 @media only screen and (min-width : 1100px) {
